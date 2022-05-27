@@ -160,10 +160,6 @@ h2 {
     width: 35%;
 }
 
-.guest img {
-    width:50%;
-}
-
 .start {
     background-color: #d8d8d8;
 }
@@ -171,6 +167,12 @@ h2 {
 .title {
     text-align: center;
     padding-top: 32px;
+}
+
+.start-cards-container {
+    margin-left: 72px;
+    margin-right: 72px;
+    padding-bottom: 16px;
 }
 
 .three-cards {
@@ -181,9 +183,34 @@ h2 {
     background-color: white;
     margin: 24px;
     width: 30%;
+    padding-bottom: 24px;
+}
+
+.card p {
+    padding-right: 16px;
 }
 
 .card img {
+    width: 100%;
+    height: auto;
+}
+
+.start-mobile {
+    display: none;
+}
+
+.exhibit-container {
+    display: flex;
+    width: 100%;
+}
+
+.video-and-text {
+    width: 55%;
+    margin-right: 40px;
+}
+
+.video {
+    margin: 32px 24px;
     width: 100%;
     height: auto;
 }
@@ -246,6 +273,7 @@ footer a {
     .inf-img {
         display: inline-block;
         width: 100%;
+        height: auto;
     }
 
     .guest {
@@ -255,6 +283,33 @@ footer a {
     .guest img {
         width: 100%;
         display: inline-block;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .start {
+        display: none;
+    }
+
+    .start-mobile {
+        display: inherit;
+        padding-bottom: 32px;
+        border-bottom: #d8d8d8 solid 1px;
+    }
+
+    .title-m {
+        text-align: center;
+
+    }
+
+    .item-m {
+        background-color: #d8d8d8;
+        margin-bottom: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+
     }
 
     footer {
