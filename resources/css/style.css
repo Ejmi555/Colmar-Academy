@@ -301,7 +301,17 @@ footer a {
 
     .title-m {
         text-align: center;
+    }
 
+    .exhibit-container .practise-cards {
+        display: none;
+    }
+
+    .video-and-text {
+        width: 100%;
+    }
+    .video {
+        margin-top: 0;
     }
 
     .item-m {
